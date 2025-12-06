@@ -1,6 +1,6 @@
 name: 📝#30daysofawsterraform Challenge Submission
 description: Submit your daily blog post and progress
-title: "Day [DAY] - [YOUR_USERNAME]"
+title: "Day [1] - [saumyasingh9]"
 labels: ["submission"]
 body: 
   - type: input
@@ -26,7 +26,7 @@ body:
     attributes:
       label: Blog Post URL
       description: Link to your blog post
-      placeholder: https://yourblog.com/terraform-aws-day-5
+      placeholder: https://medium.com/@saumyasingh24602new/terraform-with-aws-2be618a074de
     validations:
       required: true
   
@@ -35,7 +35,7 @@ body:
     attributes:
       label: Social Media Post URL
       description: Twitter/LinkedIn post link with #TerraformAWS30Days
-      placeholder: https://twitter.com/username/status/123456789
+      placeholder: https://x.com/Saumya240602/status/1997351925646348719?s=20
     validations:
       required: true
       
@@ -44,7 +44,7 @@ body:
     attributes:
       label: Your Practice Repository
       description: Link to your GitHub repo with today's code
-      placeholder: https://github.com/username/terraform-practice
+      placeholder: https://github.com/saumyasingh9/30-days-Terraform-Full-Course-Aws-challenge
     validations:
       required: false
   
