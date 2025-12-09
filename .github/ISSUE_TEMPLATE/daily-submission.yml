@@ -1,12 +1,12 @@
 name: 📝#30daysofawsterraform Challenge Submission
 description: Submit your daily blog post and progress
-title: "Day [1] - [saumyasingh9]"
+title: "Day [2] - [saumyasingh9]"
 labels: ["submission"]
 body: 
   - type: input
-    id: day_number
+    id: 2
     attributes:
-      label: Day Number
+      label: 2
       description: Which day of the challenge (1-30)
       placeholder: "5"
     validations:
@@ -16,7 +16,7 @@ body:
     id: challenge_topic
     attributes:
       label: Challenge Topic
-      description: Today's challenge topic
+      description: Terraform providers
       placeholder: "EC2 Instance Creation"
     validations:
       required: true
@@ -26,7 +26,7 @@ body:
     attributes:
       label: Blog Post URL
       description: Link to your blog post
-      placeholder: https://medium.com/@saumyasingh24602new/terraform-with-aws-2be618a074de
+      placeholder: https://medium.com/@saumyasingh24602new/day-2-30-understanding-terraform-providers-and-version-constraints-fa716eef40dc
     validations:
       required: true
   
@@ -35,7 +35,7 @@ body:
     attributes:
       label: Social Media Post URL
       description: Twitter/LinkedIn post link with #TerraformAWS30Days
-      placeholder: https://x.com/Saumya240602/status/1997351925646348719?s=20
+      placeholder: https://x.com/Saumya240602/status/1998440235655741550?s=20
     validations:
       required: true
       
@@ -52,8 +52,8 @@ body:
     id: key_learnings
     attributes:
       label: Key Learnings
-      description: What did you learn today? (3-5 sentences)
-      placeholder: "Today I learned how to..."
+      description: What did you learn today? 
+      placeholder: "terraform providers"
     validations:
       required: true
       
